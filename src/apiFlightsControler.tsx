@@ -32,7 +32,8 @@ const fetchPricesInTheYear = async (year: number, origin: string, destination: s
 
       // Parse the JSON data from the response
       const result = await response.json();
-      return result;
+      
+      return result.sort((a:any,b:any) => a.departureDate - b.departureDate);;
 
     } catch (error) {
         console.error('Error fetching data:', error);
