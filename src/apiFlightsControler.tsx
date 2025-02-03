@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 
-const URL = 'http://localhost:8080/v1/flights/search';
+const URL = 'http://172.31.47.242:8080/v1/flights/search';
 const fetchLowestPriceInTheYear = async (year: number, origin: string, destination: string) => {
     try {
       // Make a GET request using the Fetch API

@@ -5,5 +5,5 @@ COPY package-lock.json /usr/flight-serach-frontend/package-lock.json
 
 RUN npm install
 COPY . /usr/flight-serach-frontend
-EXPOSE 5173
+EXPOSE 80
 CMD [ "npm", "run", "dev" ]

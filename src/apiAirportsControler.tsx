@@ -1,5 +1,5 @@
 
-const URL = 'http://localhost:8080/v1/airports/search/';
+const URL = 'http://172.31.47.242:8080/v1/airports/search/';
 const fetchAllAirports = async () => {
     try {
       // Make a GET request using the Fetch API

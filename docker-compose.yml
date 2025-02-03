@@ -4,4 +4,4 @@ services:
       context: .
     container_name: flight-search-frontend
     ports:
-      - 5173:5173
+      - 80:80
